@@ -46,31 +46,41 @@ footer {
   margin-top: 20px;
 }
 
-.project-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 15px;
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 20px 0;
+.contact-form {
+  padding: 15px;
+  margin-bottom: 20px;
 }
 
-.project-card {
-  background-color: #ffffff;
-  border: 2px solid #a3d2ca;
-  border-radius: 10px;
-  padding: 10px;
-  text-align: center;
-}
-
-.project-card img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-  margin-bottom: 8px;
-}
-
-.project-card h3 {
+.contact-form label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
   color: #2f4f4f;
-  margin: 8px 0 4px 0;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 2px solid #a3d2ca;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+.contact-form button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #ff8fab;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.contact-form button:hover {
+  background-color: #ff6f91;
 }
