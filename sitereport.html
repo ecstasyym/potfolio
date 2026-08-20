@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Site Report - My Portfolio</title>
+  <link rel="stylesheet" href="mix.css">
+</head>
+<body>
+
+  <header>
+    <h1>Site Report</h1>
+    <p>A look back at how I built this website.</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="project.html">Projects</a>
+    <a href="contact.html">Contact</a>
+    <a href="skills.html">skills</a>
+    <a href="blog.html">blog</a>
+    <a href="sitereport.html">report</a>
+  </nav>
+
+  <main>
+    <section class="intro">
+      <h2>Introduction</h2>
+      <p>
+        This page is a report about my experience building this portfolio website
+        for CSY1063. I am writing it like a log, going through the term and talking
+        about what I learned, what went wrong, and what I would do differently.
+        I am still new to web development, so there were a lot of mistakes along
+        the way, but I learned a lot from fixing them.
+      </p>
+    </section>
+
+    <section class="log">
+      <h2>My Development Log</h2>
+
+      <h3>Getting started with HTML</h3>
+      <p>
+        At the start I did not really know the difference between tags like
+        &lt;div&gt; and &lt;section&gt;. My first version of the navigation bar
+        used a &lt;div class="nav"&gt; because that is what I saw in old tutorials.
+        Later I learned that HTML has proper tags for things like navigation,
+        so I changed it to a real &lt;nav&gt; tag. I did the same thing for
+        &lt;header&gt;, &lt;main&gt; and &lt;footer&gt; instead of just using
+        divs for everything.
+      </p>
+
+      <h3>Building the projects page</h3>
+      <p>
+        For project.html I had to use a different grid layout than the rest of
+        the site. I used CSS Grid instead of the simple layout I used everywhere
+        else. It took me a while to understand how grid-template-columns worked,
+        and my images kept stretching in weird ways until I learned about
+        object-fit.
+      </p>
+
+      <h3>Making the contact form</h3>
+      <p>
+        The contact page needed a form, but since we are not using a
+        server-side language in this module, I made the form use a mailto
+        link so it opens the user's email app instead. It is not the best way
+        to do it in a real website, but it was the only option we could use
+        for this assignment.
+      </p>
+
+      <h3>Skills and blog pages</h3>
+      <p>
+        On skills.html I used a table for things like my education and
+        certifications, and a list for my soft skills, because a table made
+        more sense for information that has rows and columns. The blog page
+        was more fun to make because I just had to write about a topic and
+        add pictures that matched what I was talking about.
+      </p>
+
+      <h3>Making it responsive</h3>
+      <p>
+        Making the site work on mobile was the hardest part for me. At first
+        my media queries were a mess and things overlapped on smaller screens.
+        I had to go back and rewrite a lot of my CSS to make it work properly
+        on both desktop and mobile.
+      </p>
+    </section>
+
+    <section class="design">
+      <h2>Design Decisions</h2>
+      <p>
+        I chose [your colours here] because [your reason]. For the fonts I
+        used [your font choice] because [your reason]. I looked at
+        [name a site/portfolio that inspired you] for ideas on how to lay
+        out my pages.
+      </p>
+    </section>
+
+    <section class="ups-downs">
+      <h2>Ups and Downs</h2>
+      <p>
+        <strong>What went well:</strong> [say what you enjoyed or found easy]
+      </p>
+      <p>
+        <strong>What was hard:</strong> [say what was frustrating or took a
+        long time to fix]
+      </p>
+      <p>
+        <strong>What I would change:</strong> [say what you would do
+        differently next time]
+      </p>
+    </section>
+
+    <section class="validation">
+      <h2>HTML and CSS Validation</h2>
+      <p>
+        I checked all my pages using the
+        <a href="https://validator.w3.org/">W3C HTML Validator</a> and the
+        <a href="https://jigsaw.w3.org/css-validator/">W3C CSS Validator</a>.
+        Screenshots of my results are below.
+      </p>
+      <img src="images/validation-html.png" alt="HTML validator result">
+      <img src="images/validation-css.png" alt="CSS validator result">
+    </section>
+
+    <section class="video">
+      <h2>Video Demonstration</h2>
+      <p>
+        Here is the link to my video walkthrough of the site:
+        <a href="https://www.youtube.com/watch?v=REPLACE_WITH_YOUR_VIDEO_ID">
+          https://www.youtube.com/watch?v=REPLACE_WITH_YOUR_VIDEO_ID
+        </a>
+      </p>
+    </section>
+
+    <section class="conclusion">
+      <h2>Conclusion</h2>
+      <p>
+        Making this website taught me a lot about HTML, CSS, and how to fix
+        problems when things do not work. I feel like I understand web
+        development a lot better now than when I started, and I am looking
+        forward to building more things next term.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Thanks for reading my report</p>
+  </footer>
+
+</body>
+</html>

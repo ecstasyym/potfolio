@@ -1,3 +1,4 @@
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -46,6 +47,37 @@ footer {
   margin-top: 20px;
 }
 
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.project-card {
+  background-color: #ffffff;
+  border: 2px solid #a3d2ca;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.project-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+.project-card h3 {
+  color: #2f4f4f;
+  margin: 8px 0 4px 0;
+}
+
+
 .contact-form {
   padding: 15px;
   margin-bottom: 20px;
@@ -83,4 +115,60 @@ footer {
 
 .contact-form button:hover {
   background-color: #ff6f91;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #a3d2ca;
+}
+
+th {
+  color: #2f4f4f;
+  border-bottom: 2px solid #ff8fab;
+}
+
+.bio ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.bio ul li {
+  margin-bottom: 6px;
+}
+
+
+.bio img {
+  max-width: 100%;
+  height: auto;
+  margin: 15px 0;
+  border-radius: 8px;
+}
+
+
+.log, .design, .ups-downs, .validation, .video, .conclusion {
+  padding: 15px;
+  margin-bottom: 20px;
+}
+.log h3 {
+  color: #2f4f4f;
+  margin-bottom: 5px;
+}
+.validation img {
+  max-width: 100%;
+  height: auto;
+  border: 2px solid #a3d2ca;
+  border-radius: 6px;
+  margin: 10px 10px 10px 0;
+}
+.video a {
+  color: #2f4f4f;
+  font-weight: bold;
 }
